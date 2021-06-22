@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+.back {
+    background: linear-gradient(90deg, #3CC5FC 0%, #1786FA 100%);
+    width: 100%;
+    height: 290px;
+    position: absolute;
+    z-index: -1;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.head-block {
+    display: flex;
+    color: white;
+    padding-top: 15px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.back-step {
+    border: none;
+    background: none;
+    width: 50px;
+    height: 30px;
+}
+
+.back-step:focus {
+    outline: none;
+}
+
+.back-step img {
+    width: 13px;
+}
+
+.img-block {
+    width: 175px;
+    margin: auto;
+    color: white;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.device-block {
+    width: 340px;
+    margin: auto;
+    margin-top: 135px;
+}
+
+.add-device {
+    width: 340px;
+    height: 75px;
+    background: #FFFFFF;
+    box-shadow: -4px -4px 10px #FFFFFF, 0px 4px 10px rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+    margin: auto;
+    font-size: 20px;
+    border: none;
+}
+
+.smart-suit-pass {
+    font-size: 36px;
+    line-height: 42px;
+    margin-top: 250px;
+    text-align: center;
+    color: rgba(213, 213, 213, 0.62);
+}
+
+button:focus {
+    outline: none;
+}

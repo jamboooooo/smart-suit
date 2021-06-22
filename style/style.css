@@ -1,0 +1,212 @@
+body {
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+.main {
+    background: linear-gradient(90deg, #3CC5FC 0%, #1786FA 100%);
+    padding: 85px 0 35px 0;
+}
+
+.login-block,
+.register-block {
+    width: 280px;
+    height: 400px;
+    margin: auto;
+    background: #F5F5F5;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.25), -10px -10px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    padding: 20px 15px 25px 15px;
+}
+
+.register-block {
+    height: 435px;
+}
+
+.login-block h2 {
+    text-align: center;
+    margin-bottom: 85px;
+}
+
+.register-block h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.login-block img,
+.register-block img {
+    height: 13px;
+    width: 15px;
+}
+
+.brim div {
+    display: flex;
+}
+
+.brim p,
+.brim hr {
+    margin: 0;
+    width: 170px;
+    margin-left: 28px;
+}
+
+.brim input {
+    border: none;
+    margin-left: 10px;
+    width: 170px;
+}
+
+.brim input:focus {
+    outline: none;
+}
+
+.brim p {
+    margin-left: 12px;
+    margin-right: 100px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #C1BFB9;
+}
+
+.brim hr {
+    background-color: #181818;
+}
+
+.brim {
+    width: 210px;
+    height: 25px;
+    line-height: 25px;
+    margin: auto;
+    margin-bottom: 35px;
+}
+
+.register-block .brim {
+    margin-bottom: 25px;
+}
+
+.login-btn,
+.register-btn {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 165px;
+    height: 40px;
+}
+
+.register-btn {
+    margin-top: 50px;
+    width: 220px;
+}
+
+.login-btn button,
+.register-btn button {
+    width: 165px;
+    height: 40px;
+    background: linear-gradient(180deg, #3CC3FA 0%, #1786F8 88.75%);
+    border-radius: 25px;
+    box-shadow: none;
+    border: none;
+    color: #F5F5F5;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: bold;
+}
+
+.register-btn button {
+    width: 220px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links a {
+    color: #238BFA;
+    text-decoration: none;
+}
+
+.smart-suit {
+    font-size: 36px;
+    line-height: 42px;
+    margin-top: 200px;
+    text-align: center;
+    background: linear-gradient(45deg, #167BD9, 70%, #2CA6E3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.smart-suit-pass {
+    font-size: 36px;
+    line-height: 42px;
+    margin-top: 535px;
+    text-align: center;
+    color: rgba(213, 213, 213, 0.62);
+}
+
+.main-forgot-pass {
+    padding: 85px 0 35px 0;
+}
+
+.main-forgot-pass .brim hr {
+    background-color: #181818;
+    margin-top: 2px;
+}
+
+.next-btn,
+.confirm-btn {
+    width: 120px;
+    height: 35px;
+    margin: auto;
+    margin-bottom: 380px;
+}
+
+.confirm-btn {
+    margin-bottom: 310px;
+}
+
+.next-btn button,
+.confirm-btn button {
+    width: 120px;
+    height: 35px;
+    color: #181818;
+    background: #FFFFFF;
+    opacity: 0.9;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    font-size: 13px;
+    line-height: 15px;
+    border: none;
+}
+
+.next-btn button a,
+.confirm-btn button a {
+    text-decoration: none;
+    color: #181818;
+}
+
+.main-confirm-pass {
+    padding: 35px;
+}
+
+.main-confirm-pass p {
+    text-align: center;
+}
+
+.number-pole {
+    width: 215px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.number-pole hr {
+    width: 35px;
+    background-color: #181818;
+}
+
+button:focus {
+    outline: none;
+}

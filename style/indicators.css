@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+p {
+    margin: 0;
+}
+
+.back {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.back img {
+    width: 100%;
+}
+
+.head-block {
+    display: flex;
+    color: white;
+    padding-top: 15px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.back-step {
+    border: none;
+    background: none;
+    width: 50px;
+    height: 30px;
+}
+
+.back-step:focus {
+    outline: none;
+}
+
+.back-step img {
+    width: 13px;
+}
+
+.indicator-block {
+    width: 330px;
+    height: 175px;
+    margin: auto;
+    margin-top: 55px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25), 0px -4px 10px rgba(255, 255, 255, 0.25);
+    border-radius: 10px;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.result {
+    margin-top: 30px;
+}
+
+.indicator {
+    margin-top: 10px;
+}
+
+.indicator h2 {
+    font-size: 40px;
+    line-height: 47px;
+    color: #1786FA;
+    margin: 0;
+}
+
+.indicator p {
+    font-size: 20px;
+    line-height: 23px;
+    color: #181818;
+}
+
+.row-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.id-back {
+    width: 80px;
+    height: 80px;
+    background-image: url(img/back-elips.png);
+    background-size: 80px;
+    background-repeat: no-repeat;
+}
+
+.id-back img {
+    margin-top: 19px;
+}
+
+.smart-suit-pass {
+    font-size: 36px;
+    line-height: 42px;
+    margin-top: 450px;
+    text-align: center;
+    color: rgba(213, 213, 213, 0.62);
+}
